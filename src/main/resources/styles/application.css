@@ -1,0 +1,27 @@
+/* JavaFX Application Stylesheet */
+
+.default {
+    -fx-background-color: #85C1E9;
+
+}
+
+.header {
+    -fx-background-color : #154360;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-text-fill: #2C3E50;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#ECF0F1, #D0D3D4);
+}
+
+.button:hover {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#154360, #34495E);
+}
